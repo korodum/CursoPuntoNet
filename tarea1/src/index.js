@@ -1,9 +1,10 @@
-
-const gallery = document.getElementsByClassName('gallery');
-function galeria (gallery){
-  for(i=0; i < 5; i++) {
-    let img = document.createElement('div').setAttribute('class', `image${i}`);
-    return gallery.appendChild();
-  }}
-
-  galeria(gallery);
+const gallery= document.querySelector(".gallery");
+console.log(gallery);
+function galeria() {
+  for (let i = 0; i <= 5; i++) {
+  const divImage = document.createElement('div');
+  divImage.classList.add(`image${i}`);
+  gallery.appendChild(divImage);
+  }
+}
+galeria()
