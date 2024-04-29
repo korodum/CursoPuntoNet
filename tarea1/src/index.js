@@ -1,21 +1,9 @@
-let images ;
-const route = '../style/media';
-const gallery = document.getElementById('gallery');
-/*async function galeria (){
-  try {
-    const res = await fetch('http://localhost:3000');
-    await res.json();
-    return console.log(res)
-  }
-}*/
 
-async function galeria (){
+const gallery = document.getElementsByClassName('gallery');
+function galeria (gallery){
+  for(i=0; i < 5; i++) {
+    let img = document.createElement('div').setAttribute('class', `image${i}`);
+    return gallery.appendChild();
+  }}
 
-    const res = await fetch('http://localhost:3000/');
-    images = await res.json();
-    return console.log(images)
-
-}
-
-console.log(images);
-console.log('hola');
+  galeria(gallery);

@@ -17,7 +17,10 @@ a {
   text-decoration: none;
   padding: 1rem 2rem ;
 }
-
+ img {
+  width: 10%;
+  height: 10%;
+ }
 .left {
   display: flex;
   justify-content: flex-start;
@@ -62,4 +65,51 @@ a {
  .vertical a:nth-child(3),
  .vertical a:nth-child(4) {
   width:25vw;
+ }
+ .gallery {
+  display: flex;
+  justify-content: flex-start
+
+ }
+ .gallery .image0 {
+   width: 100px;
+   height: 100px;
+   background-image: '../style/media/boy.svg';
+ }
+ .gallery .image1 {
+   width: 100px;
+   height: 100px;
+   background-image: '../style/media/girl.svg';
+ }
+ .gallery .image2 {
+   width: 100px;
+   height: 100px;
+   background-image: '../style/media/girl-1.svg'
+ }
+ .gallery .image3 {
+   width: 100px;
+   height: 100px;
+   background-image: '../style/media/girl-2.svg';
+ }
+ .gallery .image4 {
+   width: 100px;
+   height: 100px;
+   background-image: '../style/media/girl-3.svg';
+
+ }
+ .gallery .image5 {
+   width: 100px;
+   height: 100px;
+   background-image: '../style/media/man.svg';
+ }
+
+
+
+ .gallery-2{
+  display: flex;
+  justify-content: space-around;
+ }
+ .gallery-3{
+  display: flex;
+  justify-content: space-between;
  }
