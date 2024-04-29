@@ -1,13 +1,21 @@
-//import {route, gallery, files} from './files.js';
-const gallery = document.getElementById('gallery');+
-async function galeria {
+let images ;
+const route = '../style/media';
+const gallery = document.getElementById('gallery');
+/*async function galeria (){
   try {
-    await route = fetch('/route');
-
+    const res = await fetch('http://localhost:3000');
+    await res.json();
+    return console.log(res)
   }
+}*/
+
+async function galeria (){
+
+    const res = await fetch('http://localhost:3000/');
+    images = await res.json();
+    return console.log(images)
+
 }
-files.forEach((file) => {
-  const img = document.createElement('img');
-  img.src = `${route}/${file}`;
-  gallery.appendChild(img);
-})
+
+console.log(images);
+console.log('hola');
