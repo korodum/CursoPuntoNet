@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: black;
+  color:aliceblue;
+  margin:none;
+
+}
+h1{
+  display: flex;
+  justify-content: flex-end;
+}
+main{
+  margin: none;
+}
+.destinos{
+  display: flex;
+
+}
+.polonia{
+display: flex;
+flex: 10 30.3;
+}
